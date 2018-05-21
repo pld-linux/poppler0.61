@@ -2,7 +2,7 @@
 %define		qt4_ver		4.7.0
 Summary:	PDF rendering library
 Summary(pl.UTF-8):	Biblioteka renderująca PDF
-Name:		poppler61
+Name:		poppler0.61
 Version:	0.61.0
 Release:	1
 License:	GPL v2+
