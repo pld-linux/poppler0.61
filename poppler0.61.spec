@@ -4,7 +4,7 @@ Summary:	PDF rendering library
 Summary(pl.UTF-8):	Biblioteka renderująca PDF
 Name:		poppler0.61
 Version:	0.61.0
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://poppler.freedesktop.org/poppler-%{version}.tar.xz
@@ -111,6 +111,7 @@ Provides:	poppler-Qt-devel = %{version}-%{release}
 Provides:	poppler-qt4-devel = %{version}-%{release}
 Obsoletes:	poppler-Qt-devel < 0.24.4-2
 Obsoletes:	poppler-qt-devel
+Obsoletes:	poppler-qt4-devel < 0.61.0
 
 %description qt4-devel
 Header files for Qt4 wrapper for poppler.
