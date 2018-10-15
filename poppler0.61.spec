@@ -15,8 +15,6 @@ BuildRequires:	QtCore-devel >= %{qt4_ver}
 BuildRequires:	QtGui-devel >= %{qt4_ver}
 BuildRequires:	QtTest-devel >= %{qt4_ver}
 BuildRequires:	QtXml-devel >= %{qt4_ver}
-BuildRequires:	autoconf >= 2.59
-BuildRequires:	automake >= 1:1.7
 BuildRequires:	cairo-devel >= %{cairo_ver}
 BuildRequires:	cmake >= 3.1.0
 BuildRequires:	curl-devel
@@ -24,7 +22,6 @@ BuildRequires:	docbook-dtd412-xml
 BuildRequires:	fontconfig-devel >= 2.0.0
 BuildRequires:	freetype-devel >= 2.0
 BuildRequires:	gettext-tools
-BuildRequires:	gobject-introspection-devel >= 0.9.12
 BuildRequires:	lcms2-devel >= 2
 BuildRequires:	libjpeg-devel
 BuildRequires:	libpng-devel
