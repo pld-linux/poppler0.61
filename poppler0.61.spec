@@ -172,7 +172,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/poppler/goo
 %{_includedir}/poppler/splash
 %{_pkgconfigdir}/poppler.pc
-%{?with_cairo:%{_pkgconfigdir}/poppler-cairo.pc}
+%{_pkgconfigdir}/poppler-cairo.pc
 %{_pkgconfigdir}/poppler-splash.pc
 
 %files qt4
