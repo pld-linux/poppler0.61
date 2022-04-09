@@ -4,7 +4,7 @@ Summary:	PDF rendering library
 Summary(pl.UTF-8):	Biblioteka renderująca PDF
 Name:		poppler0.61
 Version:	0.61.0
-Release:	2
+Release:	3
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://poppler.freedesktop.org/poppler-%{version}.tar.xz
@@ -59,8 +59,8 @@ Mały pakiet zapewniający wsparcie dla starszych aplikacji które wciąż
 wymagają API Qt4.
 
 %package devel
-Summary:	Poppler header files
-Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki Poppler
+Summary:	Poppler 0.61 header files
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki Poppler 0.61
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	curl-devel
@@ -70,10 +70,10 @@ Requires:	nss-devel >= 3
 Conflicts:	poppler-devel
 
 %description devel
-Header files for the Poppler library.
+Header files for the Poppler 0.61 library.
 
 %description devel -l pl.UTF-8
-Pliki nagłówkowe biblioteki Poppler.
+Pliki nagłówkowe biblioteki Poppler 0.61.
 
 %package qt4
 Summary:	Qt4 wrapper for poppler
@@ -86,7 +86,7 @@ Requires:	QtXml >= %{qt4_ver}
 Provides:	poppler-Qt = %{version}-%{release}
 Provides:	poppler-qt4 = %{version}-%{release}
 Obsoletes:	poppler-Qt < 0.24.4-2
-Obsoletes:	poppler-qt
+Obsoletes:	poppler-qt < 0.18.1
 Obsoletes:	poppler-qt4 < 0.61.0
 
 %description qt4
@@ -107,8 +107,9 @@ Requires:	QtXml-devel >= %{qt4_ver}
 Provides:	poppler-Qt-devel = %{version}-%{release}
 Provides:	poppler-qt4-devel = %{version}-%{release}
 Obsoletes:	poppler-Qt-devel < 0.24.4-2
-Obsoletes:	poppler-qt-devel
+Obsoletes:	poppler-qt-devel < 0.18.1
 Obsoletes:	poppler-qt4-devel < 0.61.0
+Obsoletes:	poppler-qt4-static < 0.61.0
 
 %description qt4-devel
 Header files for Qt4 wrapper for poppler.
