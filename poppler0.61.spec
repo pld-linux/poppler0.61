@@ -119,7 +119,7 @@ Pliki nagłówkowe wrapper Qt4 dla popplera.
 
 %prep
 %setup -q -n poppler-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build
