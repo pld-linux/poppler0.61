@@ -4,7 +4,7 @@ Summary:	PDF rendering library
 Summary(pl.UTF-8):	Biblioteka renderująca PDF
 Name:		poppler0.61
 Version:	0.61.0
-Release:	4
+Release:	5
 License:	GPL v2+
 Group:		Libraries
 Source0:	https://poppler.freedesktop.org/poppler-%{version}.tar.xz
